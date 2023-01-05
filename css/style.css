@@ -11,6 +11,7 @@
 .color_primary {
     color: #FD6E0A;
 }
+
 /* .active{
     color: #FFF;
     background-color: #FD6E0A;
@@ -79,9 +80,9 @@ nav .menu a:hover {
 
 .banner_info h1 {
     font-weight: 700;
-font-size: 85px;
-margin-top: 5px;
-margin-bottom: 20px;
+    font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 .banner_info p {
@@ -91,7 +92,8 @@ margin-bottom: 20px;
 }
 
 .banner_info_btn {}
-.banner_info_btn a{
+
+.banner_info_btn a {
     padding: 18px 36px;
     border-radius: 5px;
     font-size: 20px;
@@ -100,9 +102,78 @@ margin-bottom: 20px;
     color: #474747;
     transition: .3s all ease-in;
 }
-.banner_info_btn a:hover{
+
+.banner_info_btn a:hover {
     color: #FFF;
     background-color: #FD6E0A;
 }
 
 .banner_img {}
+
+/* Main Section Styles */
+.main {
+    margin: 130px 230px;
+    text-align: center;
+}
+
+.section_title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.sec_disc {
+    margin: 30px auto;
+    font-size: 18px;
+    color: #757575;
+}
+
+.about_me {
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+    border-radius: 10px;
+}
+
+.my_details {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.my_details_title {
+    color: #757575;
+}
+
+.my_details_disc {
+    color: #474747;
+}
+
+.my_skills {
+    padding: 130px 0px;
+}
+
+.skill_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    text-align: left;
+}
+
+.skill_details {
+    padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skill_title {
+    font-size: 20px;
+    color: #474747;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill_disc {
+    color: #757575;
+}
