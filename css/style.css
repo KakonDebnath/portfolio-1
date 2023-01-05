@@ -127,6 +127,7 @@ nav .menu a:hover {
     color: #757575;
 }
 
+/* Style For About Me Section */
 .about_me {
     background-color: #FFF8F3;
     padding: 130px 150px;
@@ -149,6 +150,8 @@ nav .menu a:hover {
     color: #474747;
 }
 
+
+/* Skill Section Styles */
 .my_skills {
     padding: 130px 0px;
 }
@@ -176,4 +179,76 @@ nav .menu a:hover {
 
 .skill_disc {
     color: #757575;
+}
+
+/* Resume Section Style */
+.my_resume {}
+
+.resume_title {
+    margin-bottom: 110px;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+.resume_main_title {
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #474747;
+}
+
+.edu_experience {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: left;
+}
+
+.education {}
+
+.edu_details {
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.edu_details:last-child {
+    border: none;
+}
+
+.edu_title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.edu_since {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+
+.edu_disc {
+    color: #757575;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.primary_btn {
+    padding: 18px 36px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+    transition: .3s all ease-in;
+    border: 0;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.primary_btn:hover {
+    color: #FFF;
+    background-color: #FD6E0A;
 }
